@@ -1,0 +1,1 @@
+<i class="tbt-bottom-q <?php echo esc_attr( $item['tbt_content_icon_right']['value'] ); ?>"></i>

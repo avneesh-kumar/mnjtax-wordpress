@@ -1,0 +1,262 @@
+/* Schedule ---------------------------------- */
+.schedule-wrap1 {
+    display: flex;
+    gap: 30px;
+    @include xl {
+        flex-wrap: wrap;
+    }
+}
+.schedule-tab {
+    border: 0;
+    display: block;
+    flex: none;
+    .nav-item {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        .nav-link {
+            background: $body-color;
+            border: 0;
+            border-radius: 0;
+            color: $white-color;
+            font-size: 60px;
+            font-weight: 700;
+            padding: 0;
+            width: 190px;
+            height: 203px;
+            transition: 0.4s;
+            span {
+                font-size: 18px;
+                font-weight: 400;
+                display: block;
+                margin-top: 15px;
+            }
+            &.active {
+                background: $theme-color;
+            }
+        }
+    }
+    @include xl {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        .nav-item {
+            width: calc(33% - 18px);
+            &:not(:last-child) {
+                margin-bottom: 0px;
+            }
+            .nav-link {
+                width: 100%;
+                height: auto;
+                padding: 25px 30px 30px;
+                line-height: 1;
+            }
+        }
+    }
+    @include lg {
+        .nav-item {
+            .nav-link {
+                font-size: 40px;
+            }
+        }
+    }
+    @include sm {
+        .nav-item {
+            width: calc(33% - 19px);
+        }
+    }
+    @include xs {
+        .nav-item {
+            width: 100%;
+        }
+    }
+}
+.schedule-tab-content {
+    width: 100%;
+    background: $white-color;
+    padding: 30px;
+    @include xl {
+        padding: 30px 30px 50px;
+    }
+    @include md {
+        padding: 15px 30px 15px;
+    }
+}
+.schedule_table {
+    margin-bottom: 0;
+    border: 0;
+    thead {
+        background-color: $theme-color;
+
+        th {
+            border: none !important;
+            color: $white-color;
+            font-size: 20px;
+            font-weight: 600;
+            i {
+                margin-right: 10px;
+            }
+            &.schedule-col-session {
+                text-align: center;
+            }
+        }
+    }
+    tbody {
+        transform: translate(0, 20px);
+        tr {
+            transition: 0.4s;
+            &:nth-of-type(even) {
+                background: $smoke-color2;
+            }
+            &:hover {
+                background: $theme-color2;
+                td,
+                .schedule-session,
+                .schedule-speaker {
+                    color: $white-color;
+                }
+                .schedule-time {
+                    background: $white-color;
+                    color: $theme-color2;
+                }
+                td:before {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+    td:before,
+    th {
+        font-family: $title-font;
+        color: $title-color;
+        font-weight: 600;
+        border: none;
+        padding: 22px 35px;
+    }
+
+    td:before {
+        content: attr(data-title);
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        vertical-align: top;
+        padding: 0;
+        transform: translateY(-50%);
+        display: none;
+        transition: 0.4s;
+    }
+    td {
+        border: none;
+        padding: 15px 30px;
+        position: relative;
+        font-size: 18px;
+        vertical-align: middle;
+        transition: 0.4s;
+        &[data-title="Session"] {
+            text-align: center;
+        }
+        &[data-title="Speaker"] {
+            display: flex;
+        }
+    }
+    .schedule-speaker {
+        display: inline-flex;
+        align-items: center;
+        gap: 15px;
+        transition: 0.4s;
+        .schedule-speakername {
+            font-size: 18px;
+        }
+    }
+    .schedule-session {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $title-font;
+        color: $title-color;
+        text-align: center;
+        transition: 0.4s;
+    }
+    .schedule-time {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $title-font;
+        color: $white-color;
+        background: $theme-color2;
+        text-align: center;
+        padding: 3px 10px;
+        width: fit-content;
+        transition: 0.4s;
+    }
+}
+@include md {
+    .schedule_table {
+        text-align: left;
+        min-width: auto;
+        border-collapse: separate;
+        border-spacing: 0 20px;
+        border: none;
+
+        thead {
+            display: none;
+        }
+        tbody {
+            transform: none;
+            tr {
+                &:nth-of-type(even) {
+                    td {
+                        border-color: rgba($color: #000000, $alpha: 0.1);
+                    }
+                }
+                &:hover {
+                    td {
+                        border-color: #f3f3f3;
+                    }
+                }
+            }
+        }
+        td {
+            padding: 15px;
+            display: block;
+            width: 100%;
+            padding-left: 30%;
+            text-align: right;
+            border: 1px solid #f3f3f3;
+            border-bottom: none;
+            &[data-title="Speaker"] {
+                display: block;
+            }
+            &[data-title="Session"] {
+                text-align: end;
+            }
+            &::before {
+                display: block;
+            }
+
+            &:last-child {
+                border-bottom: 1px solid #f3f3f3;
+            }
+        }
+        .schedule-speaker {
+            display: block;
+            .schedule-speakername {
+                margin-top: 10px;
+            }
+        }
+        .schedule-time {
+            width: auto;
+            display: inline-block;
+        }
+    }
+}
+@include xs {
+    .schedule_table .schedule-session {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .schedule_table td::before {
+        font-size: 16px;
+    }
+    .schedule_table .schedule-speaker .schedule-speakername {
+        font-size: 16px;
+    }
+}

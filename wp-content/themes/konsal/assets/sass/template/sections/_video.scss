@@ -1,0 +1,17 @@
+/* Video Area 1 -------------------------------*/
+.video-area-1 {
+    margin-bottom: -100px;
+}
+.video-box1 {
+    .play-btn {
+        --icon-size: 120px;
+        &:after, 
+        &:before {
+            background: transparent;
+            border: 1px solid $white-color;
+        }
+        @include md {
+            --icon-size: 80px;
+        }
+    }
+}

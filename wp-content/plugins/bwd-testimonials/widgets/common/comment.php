@@ -1,0 +1,1 @@
+<p class="tbt-client-comment"><?php echo esc_html($item['tbt_content_description']); ?></p>

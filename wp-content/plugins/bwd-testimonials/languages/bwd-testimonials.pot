@@ -1,0 +1,569 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: BWD Testimonials\n"
+"POT-Creation-Date: 2024-02-27 12:30+0600\n"
+"PO-Revision-Date: 2024-02-27 12:30+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bwd_testimonials.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bwd_testimonials.php:67
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: bwd_testimonials.php:68 bwd_testimonials.php:82 bwd_testimonials.php:97
+#: tbt_plugin_boots.php:47 widgets/tbt_testimonial.php:16
+msgid "BWD Testimonials"
+msgstr ""
+
+#: bwd_testimonials.php:69 bwd_testimonials.php:83
+msgid "Elementor"
+msgstr ""
+
+#: bwd_testimonials.php:72 bwd_testimonials.php:87 bwd_testimonials.php:102
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: bwd_testimonials.php:81 bwd_testimonials.php:96
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: bwd_testimonials.php:98
+msgid "PHP"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:12
+msgid "bwdtbtTestimonials"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:31
+msgid "Testimonial Contents"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:38
+msgid "Testimonial Styles"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:42 widgets/tbt_testimonial.php:1052
+msgid "Style 1"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:43 widgets/tbt_testimonial.php:1053
+msgid "Style 2"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:44 widgets/tbt_testimonial.php:1054
+msgid "Style 3"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:45 widgets/tbt_testimonial.php:1055
+msgid "Style 4"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:46 widgets/tbt_testimonial.php:1056
+msgid "Style 5"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:47 widgets/tbt_testimonial.php:1057
+msgid "Style 6"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:48 widgets/tbt_testimonial.php:1058
+msgid "Style 7"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:49 widgets/tbt_testimonial.php:1059
+msgid "Style 8"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:50 widgets/tbt_testimonial.php:1060
+msgid "Style 9"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:51 widgets/tbt_testimonial.php:1061
+msgid "Style 10"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:52
+msgid "Style 11"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:53
+msgid "Style 12"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:54
+msgid "Style 13"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:55
+msgid "Style 14"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:56
+msgid "Style 15"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:57
+msgid "Style 16"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:58
+msgid "Style 17"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:66 widgets/tbt_testimonial.php:653
+#: widgets/tbt_testimonial.php:1260 widgets/tbt_testimonial.php:1392
+#: widgets/tbt_testimonial.php:1523 widgets/tbt_testimonial.php:1671
+#: widgets/tbt_testimonial.php:1992
+msgid "Background"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:75 widgets/tbt_testimonial.php:1354
+#: widgets/tbt_testimonial.php:1486 widgets/tbt_testimonial.php:1617
+#: widgets/tbt_testimonial.php:1792 widgets/tbt_testimonial.php:2109
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:85
+msgid "Choose Profile"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:103
+msgid "Name"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:105
+msgid "JHON DOE"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:119 widgets/tbt_testimonial.php:180
+#: widgets/tbt_testimonial.php:229 widgets/tbt_testimonial.php:269
+#: widgets/tbt_testimonial.php:330 widgets/tbt_testimonial.php:413
+#: widgets/tbt_testimonial.php:499 widgets/tbt_testimonial.php:1244
+#: widgets/tbt_testimonial.php:1376 widgets/tbt_testimonial.php:1507
+#: widgets/tbt_testimonial.php:1658 widgets/tbt_testimonial.php:1979
+msgid "Color"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:130 widgets/tbt_testimonial.php:193
+#: widgets/tbt_testimonial.php:239 widgets/tbt_testimonial.php:344
+#: widgets/tbt_testimonial.php:426 widgets/tbt_testimonial.php:512
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:148
+msgid "Show Designation"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:150 widgets/tbt_testimonial.php:306
+#: widgets/tbt_testimonial.php:389 widgets/tbt_testimonial.php:469
+#: widgets/tbt_testimonial.php:594 widgets/tbt_testimonial.php:802
+#: widgets/tbt_testimonial.php:815 widgets/tbt_testimonial.php:828
+#: widgets/tbt_testimonial.php:841 widgets/tbt_testimonial.php:908
+#: widgets/tbt_testimonial.php:1020
+msgid "Show"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:151 widgets/tbt_testimonial.php:307
+#: widgets/tbt_testimonial.php:390 widgets/tbt_testimonial.php:470
+#: widgets/tbt_testimonial.php:595 widgets/tbt_testimonial.php:803
+#: widgets/tbt_testimonial.php:816 widgets/tbt_testimonial.php:829
+#: widgets/tbt_testimonial.php:842 widgets/tbt_testimonial.php:909
+#: widgets/tbt_testimonial.php:1021
+msgid "Hide"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:158
+msgid "Designation"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:160
+msgid "Developer"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:213
+msgid "Description"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:215
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, laborum "
+"laudantium. Eligendi repellat quis..."
+msgstr ""
+
+#: widgets/tbt_testimonial.php:256
+msgid "Star Rating"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:279 widgets/tbt_testimonial.php:358
+#: widgets/tbt_testimonial.php:439
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:304
+msgid "Right Icon Type (If Has)"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:316
+msgid "Icon Right"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:387
+msgid "Left Icon Type (If Has)"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:399
+msgid "Icon Left"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:467
+msgid "Publish Date"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:479
+msgid "Date"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:533
+msgid "Box Bg"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:544
+msgid "Hover Box Bg"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:563
+msgid "Content Bg"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:574
+msgid "Hover Content Bg"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:592
+msgid "Extra Shape (If Has)"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:603
+msgid "Extra Shape"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:620
+msgid "Testimonial Boxes"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:625
+msgid "Testimonial #1"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:628
+msgid "Testimonial #2"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:631
+msgid "Testimonial #3"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:634
+msgid "Testimonial #4"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:645
+msgid "Testimonial Style"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:661
+msgid "Margin"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:672
+msgid "Padding"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:683 widgets/tbt_testimonial.php:1340
+#: widgets/tbt_testimonial.php:1472 widgets/tbt_testimonial.php:1603
+#: widgets/tbt_testimonial.php:1778 widgets/tbt_testimonial.php:2095
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:704
+msgid "Carousel Settings"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:712
+msgid "Custom Id"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:714
+msgid "post-id"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:722
+msgid "Item Gap"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:735
+msgid "Responsive Device"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:737 widgets/tbt_testimonial.php:788
+#: widgets/tbt_testimonial.php:893 widgets/tbt_testimonial.php:1005
+#: widgets/tbt_testimonial.php:1051 widgets/tbt_testimonial.php:1090
+#: widgets/tbt_testimonial.php:1835 widgets/tbt_testimonial.php:2152
+msgid "Default"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:738 widgets/tbt_testimonial.php:789
+#: widgets/tbt_testimonial.php:894 widgets/tbt_testimonial.php:1006
+#: widgets/tbt_testimonial.php:1091 widgets/tbt_testimonial.php:1836
+#: widgets/tbt_testimonial.php:2153
+msgid "Custom"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:748
+msgid "Desktop View"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:759
+msgid "Tablet View"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:770
+msgid "Mobile View"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:786
+msgid "More Controlls"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:800
+msgid "Autoplay"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:813
+msgid "Infinite Loop"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:826
+msgid "Hover Pause"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:839
+msgid "Center Mode"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:851
+msgid "Autoplay TimeOut (ms)"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:863
+msgid "Autoplay Speeds (ms)"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:875
+msgid "Stage Padding (px)"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:891 widgets/tbt_testimonial.php:1630
+msgid "Navigation :: Arrow"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:906
+msgid "Arrow Navigation ?"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:918
+msgid "Arrow Type"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:922
+msgid "Icon"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:923
+msgid "Text"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:934
+msgid "Previous Icon"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:950
+msgid "Next Icon"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:966
+msgid "Previous Text"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:968
+msgid "Prev"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:982
+msgid "Next Text"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:984
+msgid "Next"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1003 widgets/tbt_testimonial.php:1076
+msgid "Navigation :: Dots"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1018
+msgid "Active Dots ?"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1030
+msgid "Type"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1034
+msgid "Dots"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1035
+msgid "Numbers"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1047
+msgid "Dot Style"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1088 widgets/tbt_testimonial.php:1833
+#: widgets/tbt_testimonial.php:2150
+msgid "Position"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1103 widgets/tbt_testimonial.php:1858
+#: widgets/tbt_testimonial.php:1917 widgets/tbt_testimonial.php:2175
+#: widgets/tbt_testimonial.php:2234
+msgid "Vertical"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1127 widgets/tbt_testimonial.php:1882
+#: widgets/tbt_testimonial.php:1941 widgets/tbt_testimonial.php:2199
+#: widgets/tbt_testimonial.php:2258
+msgid "Horizontal"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1153
+msgid "Vertical Gap"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1177
+msgid "Dots Gap"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1201
+msgid "Alignment"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1205
+msgid "Left"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1209
+msgid "Center"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1213
+msgid "Right"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1236 widgets/tbt_testimonial.php:1650
+msgid "Normal"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1282 widgets/tbt_testimonial.php:1414
+#: widgets/tbt_testimonial.php:1545 widgets/tbt_testimonial.php:1720
+#: widgets/tbt_testimonial.php:2038
+msgid "Width"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1306 widgets/tbt_testimonial.php:1438
+#: widgets/tbt_testimonial.php:1569 widgets/tbt_testimonial.php:1744
+#: widgets/tbt_testimonial.php:2061
+msgid "Height"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1331 widgets/tbt_testimonial.php:1463
+#: widgets/tbt_testimonial.php:1594 widgets/tbt_testimonial.php:1769
+#: widgets/tbt_testimonial.php:2086
+msgid "Border"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1368
+msgid "Active"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1499 widgets/tbt_testimonial.php:1971
+msgid "Hover"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1681 widgets/tbt_testimonial.php:2002
+msgid "Size"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1801 widgets/tbt_testimonial.php:2118
+msgid "Arrow Opacity"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1816 widgets/tbt_testimonial.php:2133
+msgid "Visibility"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1819 widgets/tbt_testimonial.php:2136
+msgid "Visible"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1820 widgets/tbt_testimonial.php:2137
+msgid "Hidden"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1848 widgets/tbt_testimonial.php:2165
+msgid "Left Arrow"
+msgstr ""
+
+#: widgets/tbt_testimonial.php:1907 widgets/tbt_testimonial.php:2224
+msgid "Right Arrow"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://bestwpdeveloper.com/plugins/elementor/bwd-testimonials"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"BWD Testimonials is beautiful responsive testimonial with slider and "
+"powerfull testimonial submitter for blogs and sites."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Best WP Developer"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://bestwpdeveloper.com/"
+msgstr ""
