@@ -1,0 +1,79 @@
+
+---Downloaded files---
+The import files for: Konsal Demo were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = https://sample.roilift.com/mnjtax
+Data file = /home3/sampleroilift/public_html/mnjtax/wp-content/themes/konsal/inc/demo-data/konsal-demo.xml
+Widget file = /home3/sampleroilift/public_html/mnjtax/wp-content/themes/konsal/inc/demo-data/konsal-widgets-demo.json
+Customizer file = not defined!
+Redux files:
+konsal_opt -> /home3/sampleroilift/public_html/mnjtax/wp-content/themes/konsal/inc/demo-data/redux_options_demo.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+konsal :: Search Form - No Title - Imported
+konsal :: Category List - Categories - Imported
+Konsal :: Recent Posts - Recent Posts - Imported
+Block - No Title - Imported
+
+Page Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Footer Widgets Area 1 : 
+
+Block - No Title - Imported
+
+Footer Widgets Area 2 : 
+
+Navigation Menu - Our Services - Imported
+
+Footer Widgets Area 3 : 
+
+Konsal :: Recent Posts - Recent Posts - Imported
+
+Footer Widgets Area 4 : 
+
+Block - No Title - Imported
+
+Offcanvas Sidebar : 
+
+Block - No Title - Imported
+Konsal :: Recent Posts - Recent Posts - Imported
+Block - No Title - Imported
+
+WooCommerce Sidebar : 
+
+Block - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: konsal_opt finished successfully!
+
+---ocdi/after_import---
+

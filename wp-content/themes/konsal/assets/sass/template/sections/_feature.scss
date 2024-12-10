@@ -1,0 +1,125 @@
+
+/* Feature card ---------------------------------- */
+.feature-card {
+    border: 1px solid $border-color2;
+    padding: 30px 30px 25px;
+    position: relative;
+    .feature-card-bg-shape {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .feature-card-title-wrap {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 22px;
+        .box-icon {
+            background: $theme-color;
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            line-height: 60px;
+            text-align: center;
+            flex: none;
+            img {
+                transition: 0.4s;
+            }
+        }
+        .box-title {
+            margin-bottom: 0;
+        }
+    }
+    .box-text {
+        margin-bottom: 14px;
+    }
+    .link-btn {
+        color: $theme-color;
+    }
+    &:hover {
+        .box-icon {
+            img {
+                transform: rotateY(180deg);
+            }
+        }
+    }
+    @include xl {
+        padding: 35px 35px 30px;
+    }
+    @include lg {
+        padding: 25px 25px 20px;
+        .feature-card-title-wrap {
+            display: block;
+            margin-bottom: 10px;
+            .box-title {
+                margin-top: 20px;
+            }
+        }
+    }
+    @include md {
+        padding: 30px 30px 25px;
+    }
+}
+
+/* Feature card 2---------------------------------- */
+.feature-card.style2 {
+    background: $white-color;
+    border: 0;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    .feature-card-bg-thumb {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        z-index: -1;
+        transition: 0.4s;
+        &:after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: $black-color;
+            opacity: 0.8;
+        }
+    }
+    .box-icon {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 50%;
+        background: $theme-color;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .box-title {
+        transition: 0.4s;
+    }
+    .box-text {
+        margin-bottom: -0.5em;
+        transition: 0.4s;
+    }
+    &:hover {
+        .feature-card-bg-thumb {
+            opacity: 1;
+        }
+        .box-icon {
+            background: $theme-color2;
+        }
+        .box-text,
+        .box-title {
+            color: $white-color;
+        }
+    }
+    @include xl {
+        padding: 40px;
+    }
+    @include lg {
+        padding: 30px;
+        .box-title {
+            font-size: 20px;
+        }
+    }
+}

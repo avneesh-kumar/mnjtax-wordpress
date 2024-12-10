@@ -1,0 +1,212 @@
+[23-Aug-2024 06:01:12 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/sampleroilift/public_html/mnjtax/wp-includes/class-wp-image-editor-imagick.php on line 460
+[23-Aug-2024 06:02:15 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/sampleroilift/public_html/mnjtax/wp-includes/class-wp-image-editor-imagick.php on line 460
+[23-Aug-2024 06:03:17 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/sampleroilift/public_html/mnjtax/wp-includes/class-wp-image-editor-imagick.php on line 460
+[23-Aug-2024 06:04:20 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/sampleroilift/public_html/mnjtax/wp-includes/class-wp-image-editor-imagick.php on line 460
+[23-Aug-2024 06:06:13 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/sampleroilift/public_html/mnjtax/wp-includes/class-wp-image-editor-imagick.php on line 460
+[17-Oct-2024 17:43:16 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Modules\WpCli\Module" not found in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/elementor/core/modules-manager.php:53
+Stack trace:
+#0 /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#1 /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#2 /home3/sampleroilift/public_html/mnjtax/wp-includes/class-wp-hook.php(324): Elementor\Plugin->init('')
+#3 /home3/sampleroilift/public_html/mnjtax/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home3/sampleroilift/public_html/mnjtax/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home3/sampleroilift/public_html/mnjtax/wp-settings.php(700): do_action('init')
+#6 /home3/sampleroilift/public_html/mnjtax/wp-config.php(96): require_once('/home3/samplero...')
+#7 /home3/sampleroilift/public_html/mnjtax/wp-load.php(50): require_once('/home3/samplero...')
+#8 /home3/sampleroilift/public_html/mnjtax/wp-admin/admin-ajax.php(22): require_once('/home3/samplero...')
+#9 {main}
+  thrown in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/elementor/core/modules-manager.php on line 53
+[23-Oct-2024 12:22:59 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[23-Oct-2024 12:22:59 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[24-Oct-2024 04:09:33 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[24-Oct-2024 04:09:33 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[25-Oct-2024 06:43:00 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[25-Oct-2024 06:43:00 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[25-Oct-2024 06:55:02 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[25-Oct-2024 06:55:02 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[20-Nov-2024 12:36:45 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[20-Nov-2024 12:36:45 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[20-Nov-2024 12:51:47 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[20-Nov-2024 12:51:47 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[20-Nov-2024 13:06:46 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[20-Nov-2024 13:06:47 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[21-Nov-2024 05:37:04 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[21-Nov-2024 05:37:04 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[21-Nov-2024 06:16:51 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:16:51 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:17:06 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:17:06 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:17:32 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:17:32 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:17:54 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:17:54 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:18:14 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:18:14 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:18:14 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:18:14 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:18:14 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:18:14 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:23:45 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:23:45 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:24:40 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:24:40 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:24:56 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:24:56 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:25:00 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:25:00 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:25:15 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:25:15 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:25:15 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:25:15 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:25:17 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:25:17 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:25:19 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:25:19 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:25:31 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:25:31 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:25:49 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:25:49 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:26:48 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:26:48 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:26:57 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:26:57 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:27:09 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:27:09 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:28:08 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:28:08 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:28:08 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:28:08 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:28:08 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:28:08 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:31:39 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:31:39 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:31:45 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:31:45 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:31:50 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:31:50 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:32:00 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:32:00 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:33:04 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:33:04 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:33:04 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:33:04 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:33:04 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:33:04 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:34:02 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:34:02 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:34:06 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:34:06 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:34:16 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:34:16 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:34:52 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:34:52 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:35:11 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:35:11 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:35:16 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:35:16 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:35:29 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:35:29 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:36:16 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:36:16 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:36:17 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:36:17 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:36:18 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:36:18 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:36:21 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:36:21 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:37:20 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:37:20 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:37:20 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:37:20 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:39:52 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:39:52 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:40:39 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:40:39 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:40:43 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:40:43 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:41:02 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:41:02 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:41:02 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:41:02 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:41:56 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:41:56 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:42:03 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:42:03 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:42:13 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:42:13 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:42:28 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:42:28 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:42:42 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:42:42 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:43:21 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:43:21 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:43:24 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:43:24 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:43:28 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:43:28 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:43:40 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:43:40 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:44:41 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:44:41 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:44:41 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:44:41 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:44:41 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:44:41 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:45:05 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:45:05 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:45:08 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:45:08 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:45:21 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:45:21 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:45:31 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:45:31 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:31 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:31 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:31 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:31 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:31 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:31 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:36 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:36 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:43 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:43 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:46 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:46 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:57 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:57 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:57 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:57 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:46:57 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 06:46:57 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 06:48:52 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[21-Nov-2024 06:48:52 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[21-Nov-2024 07:06:44 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:06:44 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:06:59 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:06:59 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:08:11 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:08:11 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:08:11 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:08:11 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:08:11 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:08:11 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:08:16 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:08:16 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:08:16 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:08:16 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:08:16 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:08:16 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:11:26 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:11:26 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:11:26 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:11:26 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:11:26 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:11:26 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:11:28 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:11:28 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:11:28 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:11:28 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:11:28 UTC] PHP Warning:  Undefined variable $prev in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 19
+[21-Nov-2024 07:11:28 UTC] PHP Warning:  Undefined variable $next in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/bwd-testimonials/widgets/tbt-variable.php on line 20
+[21-Nov-2024 07:25:38 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
+[21-Nov-2024 07:25:38 UTC] PHP Warning:  Attempt to read property "post_content" on null in /home3/sampleroilift/public_html/mnjtax/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 950
